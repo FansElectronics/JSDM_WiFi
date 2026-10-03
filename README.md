@@ -1,4 +1,4 @@
-# Jadwal Sholat Dot Matrix (JSDM) P10 using ESP8266 & ESP32
+# Jadwal Sholat Dot Matrix (JSDM) P10 dengan ESP8266 & ESP32
 
 Firmware display Jadwal Waktu Sholat dengan tampilan Panel P10 Dot Matrix Display (DMD) menggunakan mikrokontroler ESP8266 dan ESP32. Project ini dirancang untuk menjalankan sebuah sistem dan perhitungan jadwal sholat di Indonesia. Sudah didukung dengan pengaturan dengan aplikasi Android yang dapat di download di: https://play.google.com/store/apps/details?id=com.fanselectronics.jsdm&hl=id
 
