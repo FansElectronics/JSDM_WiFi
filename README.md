@@ -37,12 +37,12 @@ Kami mengimplementasikan sistem lisensi terenkripsi berbasis **Identifikasi Hard
 Menengapa lisensi harus berbayar? tentunya kami membutuhkan dana untuk keperluan riset dan biaya hidup, permintaan ini juga memberikan kami semangat untuk terus memelihara dan perbarui fitur-fitur pada firmware dari JSDM WiFi Android ini. Sehingga mohon pengertiannya.
 
 **Adapun Harga Lisensi dibedakan berdasarkan jumlah panel sebagai berikut 🏷️:**
-- 1 Panel : Rp. 15.000
-- 2 Panel : Rp. 25.000
-- 3 Panel : Rp. 35.000
-- 4 Panel : Rp. 45.000
-- 5 Panel : Rp. 55.000
-- 6 Panel : Rp. 65.000
+- 1 Panel : Rp. 25.000
+- 2 Panel : Rp. 35.000
+- 3 Panel : Rp. 45.000
+- 4 Panel : Rp. 55.000
+- 5 Panel : Rp. 65.000
+- 6 Panel : Rp. 75.000
 
 **Syarat dan Ketentuan Lisensi 📜:** 
 - Lisensi berlaku untuk 1 chip ESP866 atau ESP32, karena mengikat berdasarkan chip.
