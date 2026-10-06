@@ -26,6 +26,12 @@ Firmware display Jadwal Waktu Sholat dengan tampilan Panel P10 Dot Matrix Displa
 
 _**Catatan:** fitur dan animasi akan selalu diupdate, anda bisa update firmware terbaru dengan mudah melalui fitur OTA di aplikasi android._
 
+## Default SSID + Password
+```
+    SSID: JSDM WiFi Android
+    PSSS: fanselectronics
+```
+
 ## Mengapa dimulai dari versi 3?
 
 Sebelumnya project ini bersifat private saja dengan membuka firmware dan mengimplementasikan sistem lisensi, siapapun dapat membuat sendiri dan hanya tinggal membeli lisensi firmwarenya saja dengan mudah dan murah.
