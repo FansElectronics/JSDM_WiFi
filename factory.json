@@ -1,0 +1,20 @@
+{
+    "project_name": "JSDM WiFi Android",
+    "releases": [
+        {
+            "version": "3.0.0-beta.1",
+            "build_date": "2026-10-07",
+            "notes": "Rilis Beta 3.0.0 untuk ESP32 dan ESP8266, menambahkan fitur baru dan perbaikan bug dan stabil maks di 4 panel.",
+            "firmwares": {
+                "ESP32": {
+                    "url": "https://github.com/FansElectronics/JSDM_WiFi/releases/download/v3.0.0-beta.1/JSDM_3.0.0-beta.1_ESP32_Factory.bin",
+                    "offset": "0x0000"
+                },
+                "ESP8266": {
+                    "url": "https://github.com/FansElectronics/JSDM_WiFi/releases/download/v3.0.0-beta.1/JSDM_3.0.0-beta.1_ESP8266.bin",
+                    "offset": "0x0000"
+                }
+            }
+        }
+    ]
+}
