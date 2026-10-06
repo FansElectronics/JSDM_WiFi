@@ -65,7 +65,7 @@ Kami memberikan 2 sistem pembayaran dimana sistem donasi dan pembayaran sesuai h
 ## Skematik dan PCB 💾
 Semua file Skematik dan PCB saya sediakan gratis di dalam repository ini dalam bentuk desain apliksi EAGLE PCB hingga export PDF. Sesuaikan dengan board yang anda gunakan atau anda bisa mengkustomisasi sesuai dengan keinginan anda dengan panduan pin I/O yang sudah disediakan.
 
-![Skematik JSDM ESP8266 Wemos D1 Mini](https://github.com/FansElectronics/JSDM_WiFi/blob/0d33dc513200c97dc35e87ca7d75636ff398b5fc/PCB/JSDM%20Wemos%20Mini%20DS3231%20HUB12%20%26%2008%20Single/Skematik.png)
+![Skematik JSDM ESP8266 Wemos D1 Mini](https://github.com/FansElectronics/JSDM_WiFi/blob/main/PCB/JSDM%20Wemos%20Mini%20DS3231%20HUB12%20%26%2008%20Single/Skematik.png)
 ## Tutorial & Video 🎥
 
 _Masih proses ya :D_
