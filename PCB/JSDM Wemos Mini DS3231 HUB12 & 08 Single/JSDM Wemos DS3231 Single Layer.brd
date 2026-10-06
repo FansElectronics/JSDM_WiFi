@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -26,9 +26,9 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
@@ -7102,7 +7102,7 @@ design rules under a new name.</description>
 <element name="JP4" library="FansElectronics-Header" package="2X08" value="HUB08" x="106.9975" y="53.34" rot="R90"/>
 <element name="MOD2" library="FansElectronics-Modul" package="RTC-DS3231-MIRROR" value="RTC-3231MIRROR" x="77.7875" y="44.7675" rot="R90"/>
 <element name="R1" library="FansElectronics-RCL" package="0207/12" value="10K" x="59.055" y="48.895" rot="R90"/>
-<element name="R2" library="FansElectronics-RCL" package="0207/7" value="1K" x="91.44" y="34.6075" rot="R270"/>
+<element name="R2" library="FansElectronics-RCL" package="0207/7" value="2K2" x="91.44" y="34.6075" rot="R270"/>
 <element name="SG1" library="FansElectronics-Buzzer" package="5V" value="5V-PCB" x="99.3775" y="33.02" rot="R180"/>
 <element name="T1" library="transistor" package="TO92-EBC" value="" x="110.8075" y="36.5125" rot="R270"/>
 <element name="WEMOS1" library="esp8266modules" package="WEMOS-D1-MINI" value="" x="52.07" y="46.355" rot="R180"/>
@@ -7401,13 +7401,6 @@ design rules under a new name.</description>
 <contactref element="R1" pad="2"/>
 <wire x1="59.055" y1="55.245" x2="63.5" y2="55.245" width="0.6096" layer="16"/>
 </signal>
-<signal name="TOMBOL">
-<contactref element="JP3" pad="2"/>
-<contactref element="R1" pad="1"/>
-<contactref element="WEMOS1" pad="A0"/>
-<wire x1="59.055" y1="42.545" x2="59.055" y2="40.005" width="0.6096" layer="16"/>
-<wire x1="63.5" y1="40.005" x2="59.055" y2="40.005" width="0.6096" layer="16"/>
-</signal>
 <signal name="C">
 <contactref element="JP4" pad="6"/>
 <contactref element="IC1" pad="15"/>
@@ -7496,6 +7489,13 @@ design rules under a new name.</description>
 <wire x1="43.815" y1="35.5625" x2="43.815" y2="32.385" width="0.8128" layer="16"/>
 <wire x1="43.815" y1="32.385" x2="45.4025" y2="30.7975" width="0.8128" layer="16"/>
 <wire x1="45.4025" y1="30.7975" x2="91.44" y2="30.7975" width="0.8128" layer="16"/>
+</signal>
+<signal name="WIPING">
+<contactref element="JP3" pad="2"/>
+<contactref element="R1" pad="1"/>
+<wire x1="59.055" y1="42.545" x2="59.055" y2="40.005" width="0.6096" layer="16"/>
+<contactref element="WEMOS1" pad="A0"/>
+<wire x1="59.055" y1="40.005" x2="63.5" y2="40.005" width="0.8128" layer="16"/>
 </signal>
 </signals>
 </board>

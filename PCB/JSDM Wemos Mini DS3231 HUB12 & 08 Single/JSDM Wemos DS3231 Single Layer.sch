@@ -12402,7 +12402,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="GND10" library="FansElectronics-Supply" deviceset="GND" device=""/>
 <part name="P+7" library="FansElectronics-Supply" deviceset="+5V" device=""/>
 <part name="T1" library="transistor" deviceset="*-NPN-" device="TO92-EBC" technology="BC317"/>
-<part name="R2" library="FansElectronics-RCL" deviceset="R-EU_" device="0207/7" value="1K"/>
+<part name="R2" library="FansElectronics-RCL" deviceset="R-EU_" device="0207/7" value="2K2"/>
 <part name="R3" library="FansElectronics-RCL" deviceset="R-EU_" device="M0805" value="PROG"/>
 </parts>
 <sheets>
@@ -12444,16 +12444,16 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instances>
 <instance part="JP1" gate="A" x="124.46" y="91.44"/>
 <instance part="GND13" gate="1" x="114.3" y="73.66"/>
-<instance part="GND1" gate="1" x="58.42" y="76.2"/>
+<instance part="GND1" gate="1" x="66.04" y="76.2"/>
 <instance part="P+3" gate="1" x="68.58" y="101.6"/>
 <instance part="P+2" gate="1" x="124.46" y="27.94"/>
 <instance part="GND3" gate="1" x="124.46" y="12.7"/>
 <instance part="MOD2" gate="G$1" x="109.22" y="50.8"/>
-<instance part="P+1" gate="1" x="22.86" y="25.4"/>
+<instance part="P+1" gate="1" x="15.24" y="20.32" rot="R90"/>
 <instance part="IC1" gate="G$1" x="38.1" y="30.48"/>
 <instance part="GND2" gate="1" x="22.86" y="12.7"/>
 <instance part="GND4" gate="1" x="53.34" y="12.7"/>
-<instance part="P+4" gate="1" x="53.34" y="25.4" rot="MR0"/>
+<instance part="P+4" gate="1" x="60.96" y="20.32" rot="MR90"/>
 <instance part="GND5" gate="1" x="96.52" y="10.16"/>
 <instance part="GND6" gate="1" x="86.36" y="38.1"/>
 <instance part="GND7" gate="1" x="129.54" y="40.64"/>
@@ -12462,8 +12462,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="C1" gate="G$1" x="116.84" y="20.32"/>
 <instance part="SG1" gate="G$1" x="101.6" y="25.4" rot="R270"/>
 <instance part="JP2" gate="A" x="45.72" y="66.04" rot="R180"/>
-<instance part="P+5" gate="1" x="53.34" y="78.74"/>
-<instance part="GND8" gate="1" x="53.34" y="53.34"/>
+<instance part="P+5" gate="1" x="55.88" y="76.2" rot="MR0"/>
+<instance part="GND8" gate="1" x="55.88" y="55.88"/>
 <instance part="WEMOS1" gate="D1" x="35.56" y="88.9"/>
 <instance part="JP3" gate="G$1" x="10.16" y="63.5" rot="R180"/>
 <instance part="R1" gate="G$1" x="17.78" y="73.66" rot="R90"/>
@@ -12498,8 +12498,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <junction x="114.3" y="81.28"/>
 </segment>
 <segment>
-<wire x1="53.34" y1="83.82" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="83.82" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="83.82" x2="66.04" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="83.82" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="WEMOS1" gate="D1" pin="GND"/>
 </segment>
@@ -12540,8 +12540,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </segment>
 <segment>
 <pinref part="JP2" gate="A" pin="1"/>
-<wire x1="48.26" y1="60.96" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="60.96" x2="53.34" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="60.96" x2="55.88" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="60.96" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -12674,8 +12674,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </segment>
 <segment>
 <pinref part="JP2" gate="A" pin="4"/>
-<wire x1="48.26" y1="68.58" x2="55.88" y2="68.58" width="0.1524" layer="91"/>
-<label x="55.88" y="68.58" size="1.27" layer="95" xref="yes"/>
+<wire x1="48.26" y1="68.58" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
+<label x="58.42" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -12691,8 +12691,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </segment>
 <segment>
 <pinref part="JP2" gate="A" pin="3"/>
-<wire x1="48.26" y1="66.04" x2="55.88" y2="66.04" width="0.1524" layer="91"/>
-<label x="55.88" y="66.04" size="1.27" layer="95" xref="yes"/>
+<wire x1="48.26" y1="66.04" x2="58.42" y2="66.04" width="0.1524" layer="91"/>
+<label x="58.42" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -12713,15 +12713,13 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </segment>
 <segment>
 <pinref part="P+1" gate="1" pin="+5V"/>
-<wire x1="25.4" y1="20.32" x2="22.86" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="20.32" x2="22.86" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="20.32" x2="17.78" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="DIR"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="VCC"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
-<wire x1="50.8" y1="20.32" x2="53.34" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="20.32" x2="53.34" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="20.32" x2="58.42" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="MOD2" gate="G$1" pin="VCC.1"/>
@@ -12731,8 +12729,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </segment>
 <segment>
 <pinref part="JP2" gate="A" pin="2"/>
-<wire x1="48.26" y1="63.5" x2="53.34" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="63.5" x2="53.34" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="63.5" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="63.5" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="P+5" gate="1" pin="+5V"/>
 </segment>
 <segment>
@@ -12834,22 +12832,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="17.78" y1="81.28" x2="17.78" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="TOMBOL" class="0">
-<segment>
-<pinref part="JP3" gate="G$1" pin="2"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="63.5" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="63.5" x2="17.78" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="63.5" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
-<junction x="17.78" y="63.5"/>
-<label x="22.86" y="63.5" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="20.32" y1="96.52" x2="15.24" y2="96.52" width="0.1524" layer="91"/>
-<label x="15.24" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="WEMOS1" gate="D1" pin="A0"/>
-</segment>
-</net>
 <net name="C" class="0">
 <segment>
 <pinref part="JP4" gate="A" pin="6"/>
@@ -12934,6 +12916,22 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="R3" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="WIPING" class="0">
+<segment>
+<pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="63.5" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="63.5" x2="17.78" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="63.5" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
+<junction x="17.78" y="63.5"/>
+<label x="22.86" y="63.5" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="20.32" y1="96.52" x2="15.24" y2="96.52" width="0.1524" layer="91"/>
+<label x="15.24" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="WEMOS1" gate="D1" pin="A0"/>
 </segment>
 </net>
 </nets>
