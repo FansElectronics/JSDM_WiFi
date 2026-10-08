@@ -62,6 +62,11 @@ Kami memberikan 2 sistem pembayaran dimana sistem donasi dan pembayaran sesuai h
 - Pembelian dan Bantuan: https://wa.me/6281803750001
 - Donasi: https://saweria.co/fanselectronics
 
+## Bagaimana Upload Firmwarenya❓
+Kami telah menyediakan tool untuk upload / flash chip ES8266 dan ESP32 yang memudahkan siapapun untuk membuat project ini secara mandiri. Berikut url tool JSDM WiFi Flasher:
+- Flasher Tools: https://app.fanselectronics.com/flasher/JSDM/
+- Tutorialnya bisa baca di [FLASHER.md](FLASHER.md)
+
 ## Skematik dan PCB 💾
 Semua file Skematik dan PCB saya sediakan gratis di dalam repository ini dalam bentuk desain apliksi EAGLE PCB hingga export PDF. Sesuaikan dengan board yang anda gunakan atau anda bisa mengkustomisasi sesuai dengan keinginan anda dengan panduan pin I/O yang sudah disediakan.
 
