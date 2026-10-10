@@ -71,6 +71,8 @@ Kami telah menyediakan tool untuk upload / flash chip ES8266 dan ESP32 yang memu
 Semua file Skematik dan PCB saya sediakan gratis di dalam repository ini dalam bentuk desain apliksi EAGLE PCB hingga export PDF. Sesuaikan dengan board yang anda gunakan atau anda bisa mengkustomisasi sesuai dengan keinginan anda dengan panduan pin I/O yang sudah disediakan.
 
 ![Skematik JSDM ESP8266 Wemos D1 Mini](https://github.com/FansElectronics/JSDM_WiFi/blob/main/PCB/JSDM%20Wemos%20Mini%20DS3231%20HUB12%20%26%2008%20Single/Skematik.png)
+![Skematik JSDM ESP32 DevKit](https://github.com/FansElectronics/JSDM_WiFi/blob/main/PCB/JSDM%20ESP32%20DevKit%20DS3231%20HUB12%20%26%2008%20Single/Skematik.png)
+
 ## Tutorial & Video 🎥
 
 [![Tutorial JSDM WiFi](https://github.com/FansElectronics/JSDM_WiFi/blob/main/thumbnail.png)](https://www.youtube.com/watch?v=nER4bm2BxC0)
