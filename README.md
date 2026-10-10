@@ -29,7 +29,7 @@ _**Catatan:** fitur dan animasi akan selalu diupdate, anda bisa update firmware 
 ## Default SSID + Password
 ```
     SSID: JSDM WiFi Android
-    PSSS: fanselectronics
+    PASS: fanselectronics
 ```
 
 ## Mengapa dimulai dari versi 3?
@@ -73,7 +73,8 @@ Semua file Skematik dan PCB saya sediakan gratis di dalam repository ini dalam b
 ![Skematik JSDM ESP8266 Wemos D1 Mini](https://github.com/FansElectronics/JSDM_WiFi/blob/main/PCB/JSDM%20Wemos%20Mini%20DS3231%20HUB12%20%26%2008%20Single/Skematik.png)
 ## Tutorial & Video 🎥
 
-_Masih proses ya :D_
+[![Tutorial JSDM WiFi](https://youtube.com)](https://www.youtube.com/watch?v=nER4bm2BxC0)
+
 
 ## Terima Kasih Kepada 🤲
 - Allah Subhanahu Wa Ta'ala
