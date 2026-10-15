@@ -47,6 +47,15 @@ Menengapa lisensi harus berbayar? tentunya kami membutuhkan dana untuk keperluan
 - 2x1 Panel : Rp. 35.000 
 - 3x1 Panel : Rp. 45.000
 - 4x1 Panel : Rp. 55.000 
+- 5x1 Panel : _Next Update_
+- 6x1 Panel : _Next Update_
+- 1x2 Panel : _Next Update_
+- 2x2 Panel : _Next Update_
+- 3x2 Panel : _Next Update_
+- 4x2 Panel : _Next Update_
+- 5x2 Panel : _Next Update_
+- 6x2 Panel : _Next Update_
+
 _Catatan: Jumlah panel akan diupdate terus dimasa yang akan datang. ukuran panel kolom x baris._
 
 **Syarat dan Ketentuan Lisensi 📜:** 
