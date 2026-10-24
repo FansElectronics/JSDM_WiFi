@@ -28,7 +28,7 @@ _**Catatan:** fitur dan animasi akan selalu diupdate, anda bisa update firmware 
 
 ## Default SSID + Password
 ```
-    SSID: JSDM WiFi Android
+    SSID: JSDM WiFi
     PASS: fanselectronics
 ```
 
@@ -43,18 +43,38 @@ Kami mengimplementasikan sistem lisensi terenkripsi berbasis **Identifikasi Hard
 Menengapa lisensi harus berbayar? tentunya kami membutuhkan dana untuk keperluan riset dan biaya hidup, permintaan ini juga memberikan kami semangat untuk terus memelihara dan perbarui fitur-fitur pada firmware dari JSDM WiFi Android ini. Sehingga mohon pengertiannya.
 
 **Adapun Harga Lisensi dibedakan berdasarkan jumlah panel sebagai berikut 🏷️:**
-- 1 Panel : Rp. 25.000
-- 2 Panel : Rp. 35.000
-- 3 Panel : Rp. 45.000
-- 4 Panel : Rp. 55.000
-- 5 Panel : Rp. 65.000
-- 6 Panel : Rp. 75.000
+- 1x1 Panel : Rp. 40,000
+- 2x1 Panel : Rp. 60,000
+- 3x1 Panel : Rp. 80,000 
+- 4x1 Panel : Rp. 100,000 
+- 5x1 Panel : _Next Update_
+- 6x1 Panel : _Next Update_
+- 1x2 Panel : _Next Update_
+- 2x2 Panel : _Next Update_
+- 3x2 Panel : _Next Update_
+- 4x2 Panel : _Next Update_
+- 5x2 Panel : _Next Update_
+- 6x2 Panel : _Next Update_
+
+_Catatan: Jumlah panel akan diupdate terus dimasa yang akan datang. ukuran panel kolom x baris._
+
+**Fitur Auto Murottal**
+
+Fitur auto murottal berbasis wireless dimana membutuhkan tambahan module JSAM Auto Murottal yang  dijalakan dalam mode Slave Mode (Tanpa Lisensi) otomatis akan terhubung dengan perangkat JSDM dengan komunikasi Wireless (ESP Now). 
+
+- Update Fitur Auto Murottal : Rp.95,000 (Belum termasuk module Auto Murottalnya)
+- Baca detail terkait fitur JSAM Auto Murottal di https://github.com/FansElectronics/JSAM_Auto_Murottal
+
+_Catatan: Anda dapat membuat sendiri module murottal atau membeli langsung kepada kami_
 
 **Syarat dan Ketentuan Lisensi 📜:** 
-- Lisensi berlaku untuk 1 chip ESP866 atau ESP32, karena mengikat berdasarkan chip.
-- Lisensi berlaku untuk 1 jenis jumlah panel (setelah lisensi dikirim tidak bisa ganti ukuran)
-- Apabila terjadi kerusakan chip kami bisa mengganti lisensi dengan syarat mengirim chip yang rusak kepada kami guna mengihindari penipuan chip rusak. Kami akan kirim lisensi baru dengan DEVICE ID chip yang baru. kalau tidak bisa mengirimkan chip yang rusak bisa beli lisensi baru kembali.
-- Kami tidak menerima garansi lisensi apabila pembelian tidak melalui kami secara langsung (beli di pihak ke-3).
+- Lisensi berlaku mutlak untuk 1 (satu) chip ESP8266 atau ESP32 karena mengikat berdasarkan ID unik perangkat keras.
+- Lisensi berlaku untuk konfigurasi parameter yang disepakati, perubahan menyesuaikan harga.
+- Pernyesuaian perameter downgrade tidak dapat mengembalikan selisi biaya dari lisensi awal yang sudah dikirim.
+- Pernyesuaian perameter upgrade harus menambahkan biaya selisi tambahan dari versi bawah.
+- Garansi lisensi berlaku apabila chip rusak secara fisik dan kirim chip rusak kepada kami sebagai bukti. Jika chip tidak dapat dikirim, wajib membeli lisensi baru.
+- Garansi berlaku 1 tahun dari license diterbitkan.
+- Pembelian pihak kedua/ketiga tetap dilayani sesuai syarat di atas selama ID unik terdaftar resmi di database kami.
 
 ## Sistem pembayaran 💵
 
@@ -64,14 +84,25 @@ Kami memberikan 2 sistem pembayaran dimana sistem donasi dan pembayaran sesuai h
 
 ## Bagaimana Upload Firmwarenya❓
 Kami telah menyediakan tool untuk upload / flash chip ES8266 dan ESP32 yang memudahkan siapapun untuk membuat project ini secara mandiri. Berikut url tool JSDM WiFi Flasher:
-- Flasher Tools: https://app.fanselectronics.com/flasher/JSDM/
+- JSDM Firmware Flasher : https://app.fanselectronics.com/flasher/JSDM/
+- License Uploader : https://app.fanselectronics.com/tools/license-uploader
 - Tutorialnya bisa baca di [FLASHER.md](FLASHER.md)
 
 ## Skematik dan PCB 💾
 Semua file Skematik dan PCB saya sediakan gratis di dalam repository ini dalam bentuk desain apliksi EAGLE PCB hingga export PDF. Sesuaikan dengan board yang anda gunakan atau anda bisa mengkustomisasi sesuai dengan keinginan anda dengan panduan pin I/O yang sudah disediakan.
 
-![Skematik JSDM ESP8266 Wemos D1 Mini](https://github.com/FansElectronics/JSDM_WiFi/blob/main/PCB/JSDM%20Wemos%20Mini%20DS3231%20HUB12%20%26%2008%20Single/Skematik.png)
-![Skematik JSDM ESP32 DevKit](https://github.com/FansElectronics/JSDM_WiFi/blob/main/PCB/JSDM%20ESP32%20DevKit%20DS3231%20HUB12%20%26%2008%20Single/Skematik.png)
+### Skematik WEMOS D1 Mini HUB12 & HUB08
+![Skematik WEMOS D1 Mini HUB12 & HUB08](https://github.com/FansElectronics/JSDM_WiFi/blob/main/PCB/JSDM%20Wemos%20Mini%20DS3231%20HUB12%20%26%2008%20Single/Schematic.png)
+
+### Skematik WEMOS D1 Mini 3x HUB12
+![Skematik WEMOS D1 Mini 3x HUB12](https://github.com/FansElectronics/JSDM_WiFi/blob/main/PCB/JSDM%20Wemos%20Mini%20DS3231%203x%20HUB12%20Single/Schematic.png)
+
+### Skematik ESP32 Devkit HUB12 & HUB08
+![Skematik ESP32 Devkit HUB12 & HUB08](https://github.com/FansElectronics/JSDM_WiFi/blob/main/PCB/JSDM%20ESP32%20DevKit%20DS3231%20HUB12%20%26%2008%20Single/Schematic.png)
+
+### Skematik ESP32 Devkit 3x HUB12
+![Skematik ESP32 Devkit 3x HUB12](https://github.com/FansElectronics/JSDM_WiFi/blob/main/PCB/JSDM%20ESP32%20Devkit%20DS3231%203x%20HUB12%20Single/Schematic.png)
+
 
 ## Tutorial & Video 🎥
 
