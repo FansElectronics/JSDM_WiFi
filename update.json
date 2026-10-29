@@ -5,9 +5,13 @@
         "message": "Firmware JSDM WiFi (ESP8266)",
         "latest": {
             "version": "3.0.0-beta.2",
-            "file": "https://github.com/FansElectronics/JSDM_WiFi/releases/download/v3.0.0-beta.2/JSDM_3.0.0-beta.2_ESP8266.bin"
+            "file": "https://github.com/FansElectronics/JSDM_WiFi/releases/download/v3.0.0-beta.3/JSDM_3.0.0-beta.3_ESP8266.bin"
         },
         "firmware": [
+            {
+                "version": "3.0.0-beta.2",
+                "file": "https://github.com/FansElectronics/JSDM_WiFi/releases/download/v3.0.0-beta.3/JSDM_3.0.0-beta.3_ESP8266.bin"
+            },
             {
                 "version": "3.0.0-beta.2",
                 "file": "https://github.com/FansElectronics/JSDM_WiFi/releases/download/v3.0.0-beta.2/JSDM_3.0.0-beta.2_ESP8266.bin"
@@ -21,10 +25,14 @@
     "ESP32": {
         "message": "Firmware JSDM WiFi (ESP32)",
         "latest": {
-            "version": "3.0.0-beta.2",
-            "file": "https://github.com/FansElectronics/JSDM_WiFi/releases/download/v3.0.0-beta.2/JSDM_3.0.0-beta.2_ESP32_Update.bin"
+            "version": "3.0.0-beta.3",
+            "file": "https://github.com/FansElectronics/JSDM_WiFi/releases/download/v3.0.0-beta.3/JSDM_3.0.0-beta.3_ESP32_Update.bin"
         },
         "firmware": [
+            {
+                "version": "3.0.0-beta.3",
+                "file": "https://github.com/FansElectronics/JSDM_WiFi/releases/download/v3.0.0-beta.3/JSDM_3.0.0-beta.3_ESP32_Update.bin"
+            },
             {
                 "version": "3.0.0-beta.2",
                 "file": "https://github.com/FansElectronics/JSDM_WiFi/releases/download/v3.0.0-beta.2/JSDM_3.0.0-beta.2_ESP32_Update.bin"
