@@ -2,6 +2,21 @@
     "project_name": "JSDM WiFi Android",
     "releases": [
         {
+            "version": "3.0.0-beta.3",
+            "build_date": "2026-10-29",
+            "notes": "Rilis v3.0.0-beta.3 untuk ESP32 dan ESP8266, penambahan fitur Auto Murottal sama seperti Project JSAM.",
+            "firmwares": {
+                "ESP32": {
+                    "url": "https://github.com/FansElectronics/JSDM_WiFi/releases/download/v3.0.0-beta.3/JSDM_3.0.0-beta.3_ESP32_Factory.bin",
+                    "offset": "0x0000"
+                },
+                "ESP8266": {
+                    "url": "https://github.com/FansElectronics/JSDM_WiFi/releases/download/v3.0.0-beta.3/JSDM_3.0.0-beta.3_ESP8266.bin",
+                    "offset": "0x0000"
+                }
+            }
+        },
+        {
             "version": "3.0.0-beta.2",
             "build_date": "2026-10-14",
             "notes": "Rilis v3.0.0-beta.2 untuk ESP32 dan ESP8266, penambahan sistem monitoring dan pengaturan brightness, speed dalam persentase, serta perbaikan bug pada versi sebelumnya.",
